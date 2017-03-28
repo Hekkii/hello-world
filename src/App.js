@@ -3,6 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 
 import Button from './Button';
+import Clock from './Clock';
+import Toggle from './Toggle';
+import LoggingButton from './LoggingButton';
+import LoginControl from './LoginControl';
 
 class App extends Component {
 
@@ -15,7 +19,7 @@ class App extends Component {
             <div className="App">
                 <div className="App-header">
                     <img src={logo} className="App-logo" alt="logo"/>
-                    <h1>Hello world</h1>
+                    <Clock />
                 <h2>Welcome to React</h2>
                 </div>
                 <p className="App-intro">
@@ -26,6 +30,9 @@ class App extends Component {
 
                 <Button title="This is my title."/>
 
+                <Toggle />
+                <LoggingButton />
+                <LoginControl/>
             </div>
         );
     }
