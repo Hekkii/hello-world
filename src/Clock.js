@@ -1,9 +1,4 @@
-/**
- * Created by Henrik on 13/03/2017.
- */
-
 import React, {Component} from 'react';
-import './App.css';
 
 class Clock extends Component{
     constructor(props){
